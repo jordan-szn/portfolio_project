@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jordans Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="portfolio">
+    <!-- Header -->
+    <header class="header container">
+      <h1 class="logo">Junaid Ibraheem</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="intro section">
+      <div class="intro-content">
+        <h2>Hey, I'm Ibraheem</h2>
+        <p>Welcome to my world of creativity and coding. Explore my portfolio to see my journey.</p>
+        <a href="#work" class="btn">Check Out My Work</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <h2>About Me</h2>
+      <p>
+       I am a passionate and dedicated web developer with a keen eye for design and a love for problem-solving. My journey into technology began with a curiosity for creating visually appealing and functional websites, which quickly evolved into a career devoted to mastering the latest web technologies.
+
+      With a focus on clean, responsive design and seamless user experiences, I specialize in translating complex ideas into intuitive digital solutions. Whether it’s front-end development with HTML, CSS, and JavaScript or collaborating on innovative projects, I thrive on turning creative visions into reality.
+
+      When I’m not coding, you can find me exploring the latest design trends, tinkering with new tools, or enjoying time outdoors to recharge my creativity.
+      </p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+      <h2>Experience</h2>
+      <div class="experience-list">
+        <article class="experience-item">
+          <h3>Frontend Developer at Tech Solutions Inc.</h3>
+          <p>Jan 2020 - Present</p>
+          <p>Developed responsive web applications using modern frameworks, improved website performance, and collaborated with cross-functional teams to deliver seamless user experiences.</p>
+        </article>
+        <article class="experience-item">
+          <h3>Junior Web Developer at Creative Web Agency</h3>
+          <p>Aug 2018 - Dec 2019</p>
+          <p>Worked on designing and maintaining client websites, implementing interactive features, and ensuring mobile-first design principles were adhered to.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <h2>Skills</h2>
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill" data-skill-level="95"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill" data-skill-level="90"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill js-skill" data-skill-level="85"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work section">
+      <h2>My Work</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <h3>Random Password Generator Project</h3>
+          <p>We'll build a random password generator that generates a password using different characters. The final project will consist of a container titled "Random Password Generator" with an input field containing an icon for copying the password and a button to generate it. When we click the button, a password is generated randomly. We can copy it by clicking the icon. A notification will appear confirming that the password has been copied, and we can paste it anywhere we want. This project will teach us how to create random passwords and copy text using a button in the project. We'll also learn how to add a notification to the project. It's an intermediate to advanced project for learning new skills.</p>
+          <a href="random-password-demo.html" class="btn demo-btn">Live Demo</a>
+        </article>
+        <article class="project-card">
+          <h3>Random Photos Project</h3>
+          <p>Our project involves creating a random image feed that displays six images from "Lorem Pixel" website. The images are randomly selected and refresh with each page refresh. We also have a button at the bottom of the page to add new random images. To achieve this, we'll use JavaScript to fetch images from the "Lorem Pixel" API and manipulate the DOM to display them on the website. Additionally, we'll apply some CSS to style the images and the button. This project is an excellent opportunity to learn about fetching data from APIs, manipulating the DOM, and styling images in web development.</p>
+          <a href="random-photos-demo.html" class="btn demo-btn">Live Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contact section">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:Junaidjordan9@gmail.com">Junaidjordan9@gmail.com</a></p>
+      <p>Phone: +234 8133233675</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
